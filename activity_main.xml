@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="@color/bg_attendance">
+
+    <!-- Main Heading -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ATTENDANCE"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/sage_green"
+        android:gravity="center"
+        android:letterSpacing="0.04"/>
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="University Attendance Portal"
+        android:textSize="17sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Welcome Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login to continue"
+        android:textSize="15sp"
+        android:textColor="@color/soft_blue"
+        android:gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Email"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:backgroundTint="@color/soft_blue"
+        android:layout_marginTop="25dp"/>
+
+    <!-- Password -->
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Password"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:backgroundTint="@color/peach"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="LOGIN"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:backgroundTint="@color/butter_yellow"
+        android:layout_marginTop="25dp"/>
+
+    <!-- Register -->
+    <TextView
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New user? Register"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/sage_green"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
