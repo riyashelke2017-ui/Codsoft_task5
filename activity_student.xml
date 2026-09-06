@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="28dp"
+    android:background="@color/bg_attendance">
+
+    <!-- Heading -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDENT ATTENDANCE"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/sage_green"
+        android:layout_marginTop="15dp"/>
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark and view your attendance"
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Course Name -->
+    <EditText
+        android:id="@+id/edtCourse"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter Course Name"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:backgroundTint="@color/soft_blue"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Mark Attendance -->
+    <Button
+        android:id="@+id/btnMark"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="MARK ATTENDANCE"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:backgroundTint="@color/sage_green"
+        android:layout_marginTop="18dp"/>
+
+    <!-- Attendance Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attendance Records"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginTop="35dp"/>
+
+    <!-- Records -->
+    <TextView
+        android:id="@+id/txtAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No attendance records"
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary"
+        android:padding="18dp"
+        android:background="@color/card_attendance"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
